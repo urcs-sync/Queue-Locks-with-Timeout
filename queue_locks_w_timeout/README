@@ -1,0 +1,32 @@
+    Copyright (c) Michael L. Scott and William Scherer III, 2001
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source code for the results reported in
+Scalable Queue-Based Spin Locks with Timeout,
+by Michael L. Scott and William N. Scherer III.
+Published at the 8th ACM Symp. on Principles and Practice of Parallel
+Programming (PPoPP), Snowbird, UT, June 2001. 
+
+To build:
+    make depend
+    make
+
+To run:
+    timetext [args]
+
+Code ran successfully in 2001 on a Sun Ultra 4500 machine, compiled with
+gcc 2.8.1.  It may will require updates to compile and run successful in
+more recent C dialects on more recent machines.
